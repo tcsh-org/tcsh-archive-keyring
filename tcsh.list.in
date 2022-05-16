@@ -1,0 +1,1 @@
+deb [signed-by=/usr/share/keyrings/tcsh-archive-keyring.gpg] https://deb.tcsh.org/@OS@/ @CN@ main

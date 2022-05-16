@@ -1,0 +1,19 @@
+Source: tcsh-archive-keyring
+Priority: important
+Section: misc
+Maintainer: TCSH Security Team <security+packaging@tcsh.org>
+Uploaders: Kimmo Suominen <kimmo@suominen.com>,
+ Christos Zoulas <christos@astron.com>,
+Build-Depends: debhelper (>= 10), jetring, gnupg, lsb-release
+Rules-Requires-Root: no
+Standards-Version: 4.6.0
+Vcs-Browser: https://github.com/tcsh-org/tcsh-archive-keyring
+Vcs-Git: https://github.com/tcsh-org/tcsh-archive-keyring.git
+
+Package: tcsh-archive-keyring
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: GnuPG archive keys of the TCSH archive
+ The TCSH project digitally signs its Release files. This package
+ contains the archive keys used for that.
