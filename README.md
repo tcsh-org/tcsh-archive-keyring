@@ -1,22 +1,18 @@
-README for the tcsh-archive-keyring package
-===========================================
+tcsh-archive-keyring
+====================
 
-Introduction
-------------
+The TCSH project signs the `Release` files in its repository for Debian
+and Ubuntu with the keys contained in this package.
 
-The TCSH project signs the Release files in its Debian repository with
-the keys contained in this package.
+Included in this package:
 
-A quick overview about this package:
+* `/usr/share/keyrings/tcsh-archive-keyring.gpg`
 
-* /usr/share/keyrings/tcsh-archive-keyring.gpg:
+    A keyring including all keys actively used to sign the repository.
 
-    A keyring including all actively used keys to sign Release files in
-    the TCSH Debian repository.
+* `/usr/share/doc/tcsh-archive-keyring/tcsh.list`
 
-* /usr/share/doc/tcsh-archive-keyring/tcsh.list
-
-    A source configuration for apt(8) for the TCSH Debian repository.
+    A source configuration for `apt(8)`.
 
 More information about the archive authentication feature can be found
-in the manpage apt-secure(8).
+in the manpage for `apt-secure(8)`.
