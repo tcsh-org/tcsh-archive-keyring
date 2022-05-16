@@ -45,8 +45,8 @@ over-eagerly remove them and then fail.
 
 ## Removing an archive key
 
-* Remove keys/add-$foo
-* Remove the relevant entry from keys/index
+* Remove `keys/add-$foo`
+* Remove the relevant entry from `keys/index`
 
 ```
 gpg --output keys/index.asc \
